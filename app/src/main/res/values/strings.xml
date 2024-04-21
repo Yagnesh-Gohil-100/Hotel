@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Food App</string>
+    <string name="amazing_food">Amazing Food</string>
+    <string name="deliver_favorite_food">Deliver Favorite Food</string>
+    <string name="design_by_yagnesh">Design By\nYagnesh</string>
+    <string name="welcome_text">Enjoy Restaurant Quality Meals\nat Home</string>
+    <string name="next">Next</string>
+    <string name="login_msg">Login To Your Account</string>
+    <string name="login_credential_hint">Email or Phone Number</string>
+    <string name="password">Password</string>
+    <string name="or">Or</string>
+    <string name="continue_with">Continue With</string>
+    <string name="don_t_have_account">Don’t Have Account?</string>
+    <string name="facebook">Facebook</string>
+    <string name="login">Login</string>
+    <string name="google">Google</string>
+</resources>
