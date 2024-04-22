@@ -6,24 +6,19 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.foodapp.databinding.ActivityLoginBinding
-import com.example.foodapp.databinding.ActivityWelcomeBinding
+import com.example.foodapp.databinding.ActivitySignUpBinding
 
-class LoginActivity : AppCompatActivity() {
+class SIgnUpActivity : AppCompatActivity() {
     private val binding by lazy {
-
-        ActivityLoginBinding.inflate(layoutInflater)
+        ActivitySignUpBinding.inflate(layoutInflater)
     }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        binding.signUp.setOnClickListener {
-            val intent = Intent(this, SIgnUpActivity::class.java)
+        binding.login.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
-
-
     }
 }
